@@ -8,14 +8,16 @@ function App() {
     <div>
       <Title />
       <div className="todo__wrapper">
-
-<Todo />
-<Todo />
-<Todo />
-</div>
-<Modal />
-</div>
-);
+        <Todo title="Finish Frontend Simplified"
+        paragraph="Code along with Frontend Simplified Step by Step" />
+        <Todo title="Finish Interview Section"
+        paragraph="Finish every interview question in the next 6 weeks" />
+        <Todo title="Land a $100k job" 
+        paragraph="Apply to 100 jobs"/>
+      </div>
+      <Modal title=""/>
+    </div>
+  )
 }
 
 export default App;
